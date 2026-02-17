@@ -1,0 +1,27 @@
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+body{
+  font-family: 'Trirong', monospace;
+  background-image: url(https://media.istockphoto.com/id/134134047/photo/surfer.webp?s=1024x1024&w=is&k=20&c=zMWU2AS9dr3xkiwGRWbNp9wAzgZA3b1pShg2J_tzabg=);
+  background-size: cover;
+  color: pink;
+}
+p{
+  font-family: 'Audiowide', monospace;
+}
+.container {
+  position: relative;
+  float: left;
+  text-align: center;
+  padding: 50px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
